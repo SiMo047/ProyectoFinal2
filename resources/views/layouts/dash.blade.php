@@ -5,7 +5,7 @@
 <meta name="author" content="Themesberg">
 <meta name="generator" content="Hugo 0.88.1">
 
-<title>ALMA ADMIN</title>
+<title>ALMA Admin</title>
 
 <link rel="canonical" href="https://flowbite.com/application-ui/demo/">
 
@@ -73,9 +73,9 @@
             
             let cambio = () => {
                 if (document.documentElement.classList.contains('dark')) {
-                    img.src = "{{ asset('img/link.png') }}";
-                } else {
                     img.src = "{{ asset('img/link2.png') }}";
+                } else {
+                    img.src = "{{ asset('img/link.png') }}";
                 }
             };
 
@@ -201,9 +201,9 @@
             </a>
           </li>
           <li>
-            <a href="https://flowbite.com/application-ui/demo/mailing/inbox/" class="d3C8uAdJKNl1jzfE9ynq __9sbu0yrzdhGIkLWNXl _43MO1gcdi2Y0RJW1uHL mveJTCIb2WII7J4sY22F _7KA5gD55t2lxf9Jkj20 YRrCJSr_j5nopfm4duUc Q_jg_EPdNf9eDMn1mLI2 FJRldeiG2gFGZfuKgp88 BpcA_ZTX79XDgSc71n2v duXR6Hcu_44X_243WcOl OPrb_iG5WDy_7F05BDOX">
+            <a href="" class="d3C8uAdJKNl1jzfE9ynq __9sbu0yrzdhGIkLWNXl _43MO1gcdi2Y0RJW1uHL mveJTCIb2WII7J4sY22F _7KA5gD55t2lxf9Jkj20 YRrCJSr_j5nopfm4duUc Q_jg_EPdNf9eDMn1mLI2 FJRldeiG2gFGZfuKgp88 BpcA_ZTX79XDgSc71n2v duXR6Hcu_44X_243WcOl OPrb_iG5WDy_7F05BDOX">
                 <svg class="VQS2tmQ_zFyBOC2tkmto YIUegm7fh_CpJbivTu6B MnxxlQlR1H0xJuMEE8Yr PeR2JZ9BZHYIH8Ea3F36 bcsWqjK52oeyT6oeC2Az gZ3KuFw1JESHhOJhjT8j _Oyukq8JlN1X9w2FmPds XIIs8ZOri3wm8Wnj9N_y Lld6j9B1iilEqA6j31e4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M8.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l2-2a1 1 0 00-1.414-1.414L11 7.586V3a1 1 0 10-2 0v4.586l-.293-.293z"></path><path d="M3 5a2 2 0 012-2h1a1 1 0 010 2H5v7h2l1 2h4l1-2h2V5h-1a1 1 0 110-2h1a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V5z"></path></svg>
-                <span class="_74lpPUMEtHf6F0_fjLe oA7zcT_42jVeFuWTXQnq BHrWGjM1Iab_fAz0_91H" sidebar-toggle-item="">Inbox</span>
+                <span class="_74lpPUMEtHf6F0_fjLe oA7zcT_42jVeFuWTXQnq BHrWGjM1Iab_fAz0_91H" sidebar-toggle-item="">Mensajes</span>
                 <span class="_k0lTW0vvzboctTxDi2R Nm7xMnguzOx6J5Ao7yCU Q_jg_EPdNf9eDMn1mLI2 sQaK4IH7BIQSgBTGX8Pe oA7zcT_42jVeFuWTXQnq ADSeKHR1DvUUA48Chci_ rxe6apEJoEk8r75xaVNG c8dCx6gnV43hTOLV6ks5 ezMFUVl744lvw6ht0lFe RpVwy4sO7Asb86CncKJ_ mbOxN7eW74XygTKQC_r3 YccXYy5sNIz6FJlLxw0D" sidebar-toggle-item="">3</span>
             </a>
           </li>
