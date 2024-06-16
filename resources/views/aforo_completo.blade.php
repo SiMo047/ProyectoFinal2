@@ -93,8 +93,8 @@
                     </button>
                     <!-- Contenido del modal -->
                     <div class="p-4 md:p-5 text-center">
-                        <i class="far fa-check-circle text-green-500 text-5xl mb-4"></i>
-                        <h3 class="mb-5 text-lg font-normal text-black dark:text-black">Su Reserva se ha Realizado con Éxito!!</h3>
+                       <i class="fas fa-exclamation-circle text-green-500 text-5xl mb-4"></i>
+                        <h3 class="mb-5 text-lg font-normal text-black dark:text-black">Su reserva no se ha podido realizar Aforo Completo <br>Prueba a cambiar de zona</h3>
                         <!-- Botón para ir a Home -->
                         <a href="{{ route('home') }}" class="text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center">
                             Home
