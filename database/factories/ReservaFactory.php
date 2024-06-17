@@ -17,7 +17,12 @@ class ReservaFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'nombre' => $this->faker->name,
+            'n_telefono' => $this->faker->phoneNumber,
+            'n_personas' => $this->faker->numberBetween(1, 10),
+            'fecha' => $this->faker->date(),
+            'hora' => $this->faker->time(),
+            'zona' => $this->faker->randomElement(['Terraza', 'Salón']),
         ];
     }
 }
