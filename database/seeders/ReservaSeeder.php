@@ -13,6 +13,6 @@ class ReservaSeeder extends Seeder
      */
     public function run(): void
     {
-        Reserva::factory()->count(20)->create();
+        Reserva::factory()->count(2)->create();
     }
 }
